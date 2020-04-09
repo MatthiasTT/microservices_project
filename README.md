@@ -35,9 +35,21 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
 
+
 ### Kubernetes Steps
 
 * Setup and Configure Docker locally
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
+* Upload Docker image to Docker hub: `./run_kubernetes.sh`
 * Run via kubectl
+
+### File content
+
+* app.py as main flask application, contains logic
+* Makefile with all initial commands for setup
+* Bash scripts for running Docker, to upload the Docker image and to run Kubernetes
+* A requirements file with all necessary modules
+* .circleci folder with config.yml file for circleci
+* README file with project description
+* Folder with the necessary outputs
